@@ -2,7 +2,18 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, setup environment variables:
+```
+# create .env file
+touch .env
+# required variables
+NEXT_PUBLIC_DATABASE_URL=[PgSql_DB_URL]
+PUSHER_APP_ID=[Pusher_App_Id]
+NEXT_PUBLIC_PUSHER_KEY=[Pusher_Key]
+PUSHER_SECRET=[Pusher_Secret]
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
