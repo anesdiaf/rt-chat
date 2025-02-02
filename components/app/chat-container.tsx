@@ -10,7 +10,7 @@ import { db } from "@/db/migrate";
 import { messagesTable, messageType } from "@/db/schema";
 import { cn } from "@/lib/utils";
 import { formatDistanceToNow } from "date-fns";
-import { asc, desc } from "drizzle-orm";
+import { desc } from "drizzle-orm";
 
 export default function ChatContainer() {
   const [messages, setMessages] = useState<messageType[]>([]);
