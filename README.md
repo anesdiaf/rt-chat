@@ -1,5 +1,6 @@
 This is a [Next.js](https://nextjs.org) real-time chat app project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-Created using Nextjs, Tailwindcss, Shadcn, Neon, Drizzle orm, Pusher
+
+Created using Nextjs, Tailwindcss, Shadcn, Neon, Drizzle orm, Pusher.
 
 ## Getting Started
 
